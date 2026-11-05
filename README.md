@@ -4,7 +4,7 @@
 
 PhantomG analyses the body text of an email and returns a verdict (Phishing / Safe), a **threat score (0–100)**, a confidence level, a risk classification, and a list of the threat indicators it found. It ships with a Flask API, a web GUI, and a command-line tool.
 
-> **Team:** Kunal · Nidhi · Manisha
+
 
 ---
 
