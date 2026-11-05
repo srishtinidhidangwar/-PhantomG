@@ -129,14 +129,6 @@ Add your screenshots to `docs/` and reference them here:
 ![CLI output](docs/cli_output.png)
 ```
 
-## 👥 Team contributions
-
-| Member | Role | Contributions |
-|---|---|---|
-| **Kunal** | Backend & ML | Model training & feature engineering, `predict.py` inference pipeline, Flask API integration, joblib serialization |
-| **Nidhi** | Data & Research Lead | Dataset collection & preprocessing, hand-crafted feature design, model evaluation & testing, documentation & reporting |
-| **Manisha** | Frontend & UI Developer | GUI design (HTML/CSS/JS), threat indicator visualization, Flask–frontend integration, UX testing & refinement |
-
 ## ⚠️ Disclaimer
 
 PhantomG is an educational project. It is not a replacement for enterprise email security tools, and predictions should not be treated as definitive.
