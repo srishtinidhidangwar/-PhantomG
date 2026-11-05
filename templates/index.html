@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhantomG · AI-Powered Phishing Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <span class="tag">CYBERSECURITY · AI PROJECT</span>
+      <h1>PhantomG</h1>
+      <p class="sub">Paste an email body below and get an instant threat analysis.</p>
+    </header>
+
+    <section class="card">
+      <label for="email">Email text</label>
+      <textarea id="email" rows="9" placeholder="Dear User, We noticed unusual activity on your account..."></textarea>
+      <button id="analyze">Analyze Email</button>
+      <p id="error" class="error" hidden></p>
+    </section>
+
+    <section id="result" class="card" hidden>
+      <div class="grid">
+        <div class="stat"><span class="k">VERDICT</span><span id="verdict" class="v"></span></div>
+        <div class="stat"><span class="k">THREAT SCORE</span><span id="score" class="v"></span></div>
+        <div class="stat"><span class="k">CONFIDENCE</span><span id="confidence" class="v"></span></div>
+        <div class="stat"><span class="k">RISK LEVEL</span><span id="risk" class="v"></span></div>
+      </div>
+      <h2>Threat indicators</h2>
+      <ul id="indicators"></ul>
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
